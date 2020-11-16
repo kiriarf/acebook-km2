@@ -38,6 +38,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'travis'
   gem 'rake'
+  gem 'simplecov', require: false
 end
 
 group :development do
