@@ -26,42 +26,67 @@ First, clone this repository. Then:
 ```
 
 ## User Stories
-As a user
+```As a user
 So that I can use Acebook
-I need to be able to register / login
+I need to be able to register / login```
 
-As a a user
+```As a user
 So that people can find me
-I need to have a name and picture
+I need to have a name and picture```
 
-As a user
+```As a user 
+So that I can reflect 
+I would like to display my mood (as a weather)```
+
+```As a user
 So that I can let people know what I am doing  
-I want to post to Acebook feed
+I want to post to Acebook feed```
 
-As a user
+```As a user
 So that I can see what others are saying  
-I want to see all posts in reverse chronological order
+I want to see all posts in reverse chronological order```
 
-As a user
+```As a user
 So that I can like posts
-I want to be able to press a like button
+I want to be able to press a bruh button (which plays bruh sound effect 2)```
 
-As a user 
+```As a user
+So that I can dislike posts
+I want to be able to press a bullshit button on a minion meme```
+
+```
+As a user
+So that I know how people feel about my posts
+I would like to receive notifications about bruh/bullshit
+```
+
+```
+As a user
+So that I can block out the haters
+I would like to block and delete people
+```
+
+```As a user 
 So that I am not lonely
-I want to be able to add friends
+I want to be able to add friends```
 
-As a user
+```As a user
 So I can tak to my friends
-I want to send private messages
+I want to send private messages```
 
-As a user
+```As a user
 So that I can show where I am
-I would like to be able to check-in 
+I would like to be able to check in my location```
 
-As an administrator
+
+
+
+
+```As an administrator
 So that I can earn money
-I would like to sell user data to authoritarian governments
+I would like to sell user data to authoritarian governments```
 
-
-
+```As an administrator
+So that I can earn more money
+I would like to spy on user conversations and show targeted ads```
 
