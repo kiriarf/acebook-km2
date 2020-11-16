@@ -1,12 +1,17 @@
 language: ruby
-rvm:
-- 2.5.0
-before_install: gem install bundler --pre
-install:
-  - gem uninstall bundler
-  - gem install bundler --version '1.7.4'
-  - bundle install
+cache:
+- bundler
+- yarn
+services:
+- postgresql
+before_install:
+- nvm install --lts
+- export TZ=Europe/London
+before_script:
+- bundle install --jobs=3 --retry=3
+- yarn
+- bundle exec rake db:create
+- bundle exec rake db:migrate
 script:
-  - bundle exec rake db:create
-  - bundle exec rake db:migrate
-  - bundle exec rspec
+- bundle exec rspec
+
