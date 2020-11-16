@@ -1,11 +1,12 @@
 language: ruby
 rvm:
 - 2.5.0
+before_install: gem install bundler --pre
 install:
-  — gem uninstall bundler
-  — gem install bundler --version '1.7.4'
-  — bundle install
-  — bundle exec rake db:create
-  — bundle exec rake db:migrate
+— gem uninstall bundler
+— gem install bundler --version '1.7.4'
+— bundle install
+— bundle exec rake db:create
+— bundle exec rake db:migrate
 script:
-  — bundle exec rspec
+— bundle exec rspec
