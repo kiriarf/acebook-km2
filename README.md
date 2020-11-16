@@ -79,9 +79,6 @@ So that I can show where I am
 I would like to be able to check in my location```
 
 
-
-
-
 ```As an administrator
 So that I can earn money
 I would like to sell user data to authoritarian governments```
@@ -89,4 +86,14 @@ I would like to sell user data to authoritarian governments```
 ```As an administrator
 So that I can earn more money
 I would like to spy on user conversations and show targeted ads```
+
+```As a user
+So I can argue with people who disagree with me
+I would like to be able to leave comments on other users posts```
+
+```As a user
+So that I can find more bruhs
+I would like to be able to search for my friends and randoms I have met in the pub```
+
+
 
