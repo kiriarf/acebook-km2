@@ -1,14 +1,10 @@
 language: ruby
 rvm:
-- 2.5.0
+- 2.7.1
 services:
-- postgresql
-before_install: gem install bundler --pre
-install:
-  - gem uninstall bundler
-  - gem install bundler --version '1.7.4'
-  - bundle install
+  - postgresql
 script:
-  - bundle exec rake db:create
-  - bundle exec rake db:migrate
+  - bundle install
+  - bundle exec rails db:create
+  - bundle exec rails db:migrate
   - bundle exec rspec
